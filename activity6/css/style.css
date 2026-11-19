@@ -1,0 +1,61 @@
+
+.container{
+    display: grid;
+    gap:5px;
+    
+}
+
+.header{
+    background-color: lime;
+    min-height: 35px;
+}
+
+.footer{
+    background-color: lime;
+    min-height: 20px;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap:5px
+}
+
+.gallery{
+    display:grid;
+    gap:5px;
+    grid-template-rows: 1fr 4fr 4zfr;
+
+}
+
+.rectangules{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+}
+
+
+.rec-items{
+    background-color: orange;
+}
+
+.gallery-items{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:5px;
+}
+
+.item{
+    background-color: blue;
+}
+
+
+.gallery-header{
+    
+    background-color: pink;
+}
+
+.sidebar{
+    background-color: red;
+    min-height: 600px;
+}

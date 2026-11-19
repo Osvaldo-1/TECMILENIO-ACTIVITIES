@@ -1,0 +1,58 @@
+
+.container{
+
+    
+}
+
+.header{
+    background-color: lime;
+    min-height: 35px;
+}
+
+.footer{
+    background-color: lime;
+    min-height: 20px;
+}
+
+
+
+.gallery{
+    display:flex;
+    flex-direction: column;
+    gap:5px;   
+}
+
+.gallery-header{
+    background-color: pink;
+    min-height: 60px;
+}
+
+.rectangules{
+
+}
+
+
+.rec-items{
+    background-color: orange;
+    min-height: 240px;
+}
+
+.gallery-items{
+   
+}
+
+
+
+.item{
+    background-color: blue;
+    min-height:120px;
+   
+  
+}
+
+
+
+.sidebar{
+    background-color: red;
+    min-height: 400px;
+}

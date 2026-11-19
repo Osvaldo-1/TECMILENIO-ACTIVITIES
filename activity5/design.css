@@ -1,0 +1,40 @@
+
+
+
+#contenedor{
+    width:770px;
+    margin: 50px auto 0 auto; 
+}
+
+#cabecera{
+    width:770px;
+    position:relative;
+    height:100px;
+    margin:0;
+    padding:0;
+    background:#233C9B url(cabecera.jpg) no-repeat;
+}
+
+#contenido{
+    width:760px;
+    margin: 0 5px;
+    background: #FFF;
+}
+
+#contenido #principal{
+    float: left;
+    width: 530px;
+    margin-top: 15px;
+    padding: 0 0 0 20px;
+    background:#FFF;
+}
+
+#contenido #secundario{
+    float:left;
+    width: 200px;
+    margin:15px 0 0 0;
+    padding:0;
+    background: #CEDBF9 url(fondo_columna.gif) no-repeat;
+
+}
+
